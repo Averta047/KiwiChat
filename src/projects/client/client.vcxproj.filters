@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{cd4cd86e-e07f-494c-97d0-9baf59639d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\Dear ImGui">
+      <UniqueIdentifier>{5e36ebee-090e-49da-ad19-8b000c46e5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\Dear ImGui\backends">
+      <UniqueIdentifier>{49f15465-c351-4f65-ab6f-a7927802b2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\Dear ImGui\misc">
+      <UniqueIdentifier>{c787ad33-2d4c-4364-ac28-f2f4587dbaa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\Dear ImGui\misc\freetype">
+      <UniqueIdentifier>{5c8b3afe-c7e8-40a7-9b32-cb75c3821924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\Dear ImGui\misc\addons">
+      <UniqueIdentifier>{bef12569-50e8-4e4f-9ce4-ab05a15e9e56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui.cpp">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui_demo.cpp">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui_draw.cpp">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui_tables.cpp">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui_widgets.cpp">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\Dear ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>thirdparty\Dear ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\Dear ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>thirdparty\Dear ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\Dear ImGui\misc\freetype\imgui_freetype.cpp">
+      <Filter>thirdparty\Dear ImGui\misc\freetype</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\thirdparty\Dear ImGui\imconfig.h">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\Dear ImGui\imgui.h">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\Dear ImGui\imgui_internal.h">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\Dear ImGui\imstb_rectpack.h">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\Dear ImGui\imstb_textedit.h">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\Dear ImGui\imstb_truetype.h">
+      <Filter>thirdparty\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\Dear ImGui\backends\imgui_impl_dx11.h">
+      <Filter>thirdparty\Dear ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\Dear ImGui\backends\imgui_impl_win32.h">
+      <Filter>thirdparty\Dear ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\Dear ImGui\misc\freetype\imgui_freetype.h">
+      <Filter>thirdparty\Dear ImGui\misc\freetype</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
