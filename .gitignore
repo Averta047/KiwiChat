@@ -1,0 +1,6 @@
+src/.vs
+src/Release
+src/Debug
+
+client.exe
+server.exe

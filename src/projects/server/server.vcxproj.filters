@@ -9,81 +9,78 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="thirdparty">
-      <UniqueIdentifier>{cd4cd86e-e07f-494c-97d0-9baf59639d43}</UniqueIdentifier>
+    <Filter Include="vendor\ENet">
+      <UniqueIdentifier>{b94cbab8-0445-455c-be8e-ba469632c5e0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="thirdparty\Dear ImGui">
-      <UniqueIdentifier>{5e36ebee-090e-49da-ad19-8b000c46e5cd}</UniqueIdentifier>
+    <Filter Include="vendor\ENet\include">
+      <UniqueIdentifier>{cedd1737-31dd-4096-9377-c12a6950f7e9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="thirdparty\Dear ImGui\backends">
-      <UniqueIdentifier>{49f15465-c351-4f65-ab6f-a7927802b2e6}</UniqueIdentifier>
+    <Filter Include="vendor\ENet\include\enet">
+      <UniqueIdentifier>{e57bb063-d325-41e8-b05b-fdff969256b5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="thirdparty\Dear ImGui\misc">
-      <UniqueIdentifier>{c787ad33-2d4c-4364-ac28-f2f4587dbaa3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="thirdparty\Dear ImGui\misc\freetype">
-      <UniqueIdentifier>{5c8b3afe-c7e8-40a7-9b32-cb75c3821924}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="thirdparty\Dear ImGui\misc\addons">
-      <UniqueIdentifier>{bef12569-50e8-4e4f-9ce4-ab05a15e9e56}</UniqueIdentifier>
+    <Filter Include="shared">
+      <UniqueIdentifier>{8d940ee1-229c-4b65-8fd5-2ce50bc343fc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui.cpp">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClCompile Include="..\..\vendor\ENet\callbacks.c">
+      <Filter>vendor\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui_demo.cpp">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClCompile Include="..\..\vendor\ENet\compress.c">
+      <Filter>vendor\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui_draw.cpp">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClCompile Include="..\..\vendor\ENet\host.c">
+      <Filter>vendor\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui_tables.cpp">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClCompile Include="..\..\vendor\ENet\list.c">
+      <Filter>vendor\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\thirdparty\Dear ImGui\imgui_widgets.cpp">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClCompile Include="..\..\vendor\ENet\packet.c">
+      <Filter>vendor\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\thirdparty\Dear ImGui\backends\imgui_impl_dx11.cpp">
-      <Filter>thirdparty\Dear ImGui\backends</Filter>
+    <ClCompile Include="..\..\vendor\ENet\peer.c">
+      <Filter>vendor\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\thirdparty\Dear ImGui\backends\imgui_impl_win32.cpp">
-      <Filter>thirdparty\Dear ImGui\backends</Filter>
+    <ClCompile Include="..\..\vendor\ENet\protocol.c">
+      <Filter>vendor\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\thirdparty\Dear ImGui\misc\freetype\imgui_freetype.cpp">
-      <Filter>thirdparty\Dear ImGui\misc\freetype</Filter>
+    <ClCompile Include="..\..\vendor\ENet\win32.c">
+      <Filter>vendor\ENet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\thirdparty\Dear ImGui\imconfig.h">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClInclude Include="..\..\vendor\ENet\include\enet\callbacks.h">
+      <Filter>vendor\ENet\include\enet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thirdparty\Dear ImGui\imgui.h">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClInclude Include="..\..\vendor\ENet\include\enet\enet.h">
+      <Filter>vendor\ENet\include\enet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thirdparty\Dear ImGui\imgui_internal.h">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClInclude Include="..\..\vendor\ENet\include\enet\list.h">
+      <Filter>vendor\ENet\include\enet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thirdparty\Dear ImGui\imstb_rectpack.h">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClInclude Include="..\..\vendor\ENet\include\enet\protocol.h">
+      <Filter>vendor\ENet\include\enet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thirdparty\Dear ImGui\imstb_textedit.h">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClInclude Include="..\..\vendor\ENet\include\enet\time.h">
+      <Filter>vendor\ENet\include\enet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thirdparty\Dear ImGui\imstb_truetype.h">
-      <Filter>thirdparty\Dear ImGui</Filter>
+    <ClInclude Include="..\..\vendor\ENet\include\enet\types.h">
+      <Filter>vendor\ENet\include\enet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thirdparty\Dear ImGui\backends\imgui_impl_dx11.h">
-      <Filter>thirdparty\Dear ImGui\backends</Filter>
+    <ClInclude Include="..\..\vendor\ENet\include\enet\unix.h">
+      <Filter>vendor\ENet\include\enet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thirdparty\Dear ImGui\backends\imgui_impl_win32.h">
-      <Filter>thirdparty\Dear ImGui\backends</Filter>
+    <ClInclude Include="..\..\vendor\ENet\include\enet\utility.h">
+      <Filter>vendor\ENet\include\enet</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thirdparty\Dear ImGui\misc\freetype\imgui_freetype.h">
-      <Filter>thirdparty\Dear ImGui\misc\freetype</Filter>
+    <ClInclude Include="..\..\vendor\ENet\include\enet\win32.h">
+      <Filter>vendor\ENet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\Shared.h">
+      <Filter>shared</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
