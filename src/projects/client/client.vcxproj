@@ -105,7 +105,7 @@
       <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)vendor\ENet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendors\ENet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -122,7 +122,7 @@
       <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)vendor\ENet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendors\ENet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,7 +139,7 @@
       <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)vendor\ENet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendors\ENet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -156,7 +156,7 @@
       <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)vendor\ENet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendors\ENet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -167,26 +167,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\vendor\ENet\callbacks.c" />
-    <ClCompile Include="..\..\vendor\ENet\compress.c" />
-    <ClCompile Include="..\..\vendor\ENet\host.c" />
-    <ClCompile Include="..\..\vendor\ENet\list.c" />
-    <ClCompile Include="..\..\vendor\ENet\packet.c" />
-    <ClCompile Include="..\..\vendor\ENet\peer.c" />
-    <ClCompile Include="..\..\vendor\ENet\protocol.c" />
-    <ClCompile Include="..\..\vendor\ENet\win32.c" />
+    <ClCompile Include="..\..\vendors\ENet\callbacks.c" />
+    <ClCompile Include="..\..\vendors\ENet\compress.c" />
+    <ClCompile Include="..\..\vendors\ENet\host.c" />
+    <ClCompile Include="..\..\vendors\ENet\list.c" />
+    <ClCompile Include="..\..\vendors\ENet\packet.c" />
+    <ClCompile Include="..\..\vendors\ENet\peer.c" />
+    <ClCompile Include="..\..\vendors\ENet\protocol.c" />
+    <ClCompile Include="..\..\vendors\ENet\win32.c" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\callbacks.h" />
-    <ClInclude Include="..\..\vendor\ENet\include\enet\enet.h" />
-    <ClInclude Include="..\..\vendor\ENet\include\enet\list.h" />
-    <ClInclude Include="..\..\vendor\ENet\include\enet\protocol.h" />
-    <ClInclude Include="..\..\vendor\ENet\include\enet\time.h" />
-    <ClInclude Include="..\..\vendor\ENet\include\enet\types.h" />
-    <ClInclude Include="..\..\vendor\ENet\include\enet\unix.h" />
-    <ClInclude Include="..\..\vendor\ENet\include\enet\utility.h" />
-    <ClInclude Include="..\..\vendor\ENet\include\enet\win32.h" />
+    <ClInclude Include="..\..\vendors\ENet\include\enet\callbacks.h" />
+    <ClInclude Include="..\..\vendors\ENet\include\enet\enet.h" />
+    <ClInclude Include="..\..\vendors\ENet\include\enet\list.h" />
+    <ClInclude Include="..\..\vendors\ENet\include\enet\protocol.h" />
+    <ClInclude Include="..\..\vendors\ENet\include\enet\time.h" />
+    <ClInclude Include="..\..\vendors\ENet\include\enet\types.h" />
+    <ClInclude Include="..\..\vendors\ENet\include\enet\unix.h" />
+    <ClInclude Include="..\..\vendors\ENet\include\enet\utility.h" />
+    <ClInclude Include="..\..\vendors\ENet\include\enet\win32.h" />
     <ClInclude Include="..\shared\Shared.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,86 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="vendor">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="src">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="vendor\ENet">
-      <UniqueIdentifier>{b6a53fd4-e6c1-4cd8-98e4-0ed2c21e1308}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="vendor\ENet\include">
-      <UniqueIdentifier>{da004db8-afab-4db6-a291-6cf287207953}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="vendor\ENet\include\enet">
-      <UniqueIdentifier>{ba48fda9-2864-496f-b628-4a484aea10a7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="shared">
       <UniqueIdentifier>{0ab625d1-d349-4e9e-a81c-26960bb6e83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors">
+      <UniqueIdentifier>{edd354db-0641-401a-9f25-be513756776d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\ENet">
+      <UniqueIdentifier>{210afd97-a377-4f9b-920c-eedbccb165c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\ENet\include">
+      <UniqueIdentifier>{9d65603c-ccea-423d-ad66-34f12f4581a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\ENet\include\enet">
+      <UniqueIdentifier>{b87df310-21c6-4b7d-9e11-3c854157ea35}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vendor\ENet\callbacks.c">
-      <Filter>vendor\ENet</Filter>
+    <ClCompile Include="..\..\vendors\ENet\callbacks.c">
+      <Filter>vendors\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vendor\ENet\compress.c">
-      <Filter>vendor\ENet</Filter>
+    <ClCompile Include="..\..\vendors\ENet\compress.c">
+      <Filter>vendors\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vendor\ENet\host.c">
-      <Filter>vendor\ENet</Filter>
+    <ClCompile Include="..\..\vendors\ENet\host.c">
+      <Filter>vendors\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vendor\ENet\list.c">
-      <Filter>vendor\ENet</Filter>
+    <ClCompile Include="..\..\vendors\ENet\list.c">
+      <Filter>vendors\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vendor\ENet\packet.c">
-      <Filter>vendor\ENet</Filter>
+    <ClCompile Include="..\..\vendors\ENet\packet.c">
+      <Filter>vendors\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vendor\ENet\peer.c">
-      <Filter>vendor\ENet</Filter>
+    <ClCompile Include="..\..\vendors\ENet\peer.c">
+      <Filter>vendors\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vendor\ENet\protocol.c">
-      <Filter>vendor\ENet</Filter>
+    <ClCompile Include="..\..\vendors\ENet\protocol.c">
+      <Filter>vendors\ENet</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vendor\ENet\win32.c">
-      <Filter>vendor\ENet</Filter>
+    <ClCompile Include="..\..\vendors\ENet\win32.c">
+      <Filter>vendors\ENet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\callbacks.h">
-      <Filter>vendor\ENet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\enet.h">
-      <Filter>vendor\ENet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\list.h">
-      <Filter>vendor\ENet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\protocol.h">
-      <Filter>vendor\ENet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\time.h">
-      <Filter>vendor\ENet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\types.h">
-      <Filter>vendor\ENet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\unix.h">
-      <Filter>vendor\ENet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\utility.h">
-      <Filter>vendor\ENet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vendor\ENet\include\enet\win32.h">
-      <Filter>vendor\ENet\include\enet</Filter>
-    </ClInclude>
     <ClInclude Include="..\shared\Shared.h">
       <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\ENet\include\enet\callbacks.h">
+      <Filter>vendors\ENet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\ENet\include\enet\enet.h">
+      <Filter>vendors\ENet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\ENet\include\enet\list.h">
+      <Filter>vendors\ENet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\ENet\include\enet\protocol.h">
+      <Filter>vendors\ENet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\ENet\include\enet\time.h">
+      <Filter>vendors\ENet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\ENet\include\enet\types.h">
+      <Filter>vendors\ENet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\ENet\include\enet\unix.h">
+      <Filter>vendors\ENet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\ENet\include\enet\utility.h">
+      <Filter>vendors\ENet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\ENet\include\enet\win32.h">
+      <Filter>vendors\ENet\include\enet</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
